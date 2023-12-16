@@ -1,3 +1,0 @@
-timestamp = 2023-05-11T13:56:09Z
-github = { repo = "input-output-hk/anti-diffs/", rev = "bc2ecaebe68d9b11f6c7f8ff4cbb70acd6275852" }
-subdir = 'diff-containers'
