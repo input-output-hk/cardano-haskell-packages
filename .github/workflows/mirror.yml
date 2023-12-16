@@ -3,7 +3,7 @@ name: Mirror Repository
 on:
   schedule:
     # Runs at the start of every hour
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
