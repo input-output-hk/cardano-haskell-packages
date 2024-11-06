@@ -18,8 +18,6 @@ jobs:
 
     - name: Sync with source repository
       run: |
-        git remote add source https://github.com/IntersectMBO/cardano-haskell-packages.git
-        git fetch source
-        git reset --hard source/repo
-        git push origin repo
-
+        git fetch https://github.com/IntersectMBO/cardano-haskell-packages.git repo
+        git reset --hard FETCH_HEAD
+        git push --force-with-lease origin repo
